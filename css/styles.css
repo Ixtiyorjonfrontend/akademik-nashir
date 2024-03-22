@@ -156,6 +156,10 @@ margin-bottom: 24px;
 
 }
 
+.main-info{
+    padding-bottom: 160px;
+}
+
 .hero-img-wrapper{
     width: 510;
     height: 510;
@@ -212,6 +216,11 @@ margin-right: 40px;
 }
 
 
+.btn{
+    background-color: orangered;
+ }
+
+
 .main-info-icon{
     display: flex;
     justify-content: center;
@@ -237,4 +246,62 @@ margin-right: 40px;
 .main-info-item-text{
     margin-top: 0;
     margin-bottom: 0;
+}
+
+
+
+ .promo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242524;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+
+
+.promo-info{
+    max-width: 440px;
+    width: 100%;
+}
+
+
+
+.promo-heading{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+
+.promo-text{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+
+.promo-text2{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+
+
+.promo-span{
+    color: #FF7500;
+    font-weight: 700;
+}
+
+
+.promo-img-wrapper img{
+    width: 440px;
+    height: 440px;
+    border-radius: 12px;
 }
